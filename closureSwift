@@ -1,0 +1,1 @@
+func num1SupNum2((num1:Int, num2:Int)) -> Bool { $0 > $1 }
