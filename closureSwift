@@ -1,1 +1,9 @@
-func num1SupNum2((num1:Int, num2:Int)) -> Bool { $0 > $1 }
+func repeatTask(times: Int, task: () -> Void) {
+  for _ in 0..<times {
+    task()
+  }
+}
+
+repeatTask(times: 10) {
+  print("Swift Apprentice is a great book!")
+}
