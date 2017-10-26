@@ -1,0 +1,7 @@
+func factoriel(_ nomber:Int) -> Int {
+  int result = 1
+    foreach 1...nomber {
+        result *= factoriel(nomber - 1)
+    }
+    return result
+}
